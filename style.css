@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.pagination-area{
+    display:flex
+}
+
+.pagination-content{
+    display: block;
+    padding: 5px;
+    background-color: #fb00d5;
+    color: #fff;  
+    cursor:pointer;
+}
+
+.pagination-content:hover{
+    transition: 0.3s;
+    background-color: #a8028f;
+}
